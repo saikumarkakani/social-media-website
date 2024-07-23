@@ -1,0 +1,173 @@
+.user-profile3{
+    margin-top: -139px;
+    margin-left: 247px;
+    width: 148px;
+    height: 147px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .Uprofile-text3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 62px;
+  }
+
+  .Uprofile-text-S3{
+    padding: 11px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .P-text-Gap3{
+    margin-left: 40px;
+  }
+  .Uprofile-subtext3{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 56px;
+}
+.userLogo3{
+  margin-top: -7px;
+  margin-left: 178px;
+  height: 29px;
+  width: 197px;
+  color: #706d6d;
+}
+.post-text3{
+  margin-left: -81px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+  .Uprofile-subtext13{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 25px;
+  }
+  .user-P-round-image23{
+    margin-left: 243px;
+    padding: 8px;
+    width: 731px;
+    height: 114px;
+
+  }
+  .userP-img3{
+    margin-top: 59px;
+    display: flex;
+    margin-left: 289px;
+  }
+  .profile-line3{
+    width: 923px;
+    margin-left: 236px;
+  }
+
+  .post-text3{
+    margin-left: -81px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .Upic3{
+    width: 355px;
+    height: 354px;
+  }
+  .UpicStyle3{
+    gap: 30px;
+    display: flex;
+    margin-left: 196px;
+    margin-top: 34px;
+  }
+
+
+
+     /* Media query on mobile view */
+     @media (max-width: 768px) {
+      .Upro-gap-top3{
+        margin-top: 181px;
+  
+      }
+      .user-profile3{
+        margin-top: -182px;
+        margin-left: 9px;
+        width: 104px;
+        height: 105px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .Uprofile-text3{
+        margin-top: -193px;
+        font-size: 19px;
+        font-weight: 500;
+        margin-left: 15px;
+      }
+    
+      .Uprofile-text-S3{
+        margin-top: 17px;
+        padding: 4px;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 16px;
+      }
+      .P-text-Gap3{
+        margin-left: 135px;
+      }
+      .Uprofile-subtext3{
+        margin-top: 29px;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 8px;;
+    }
+    
+    
+      .Uprofile-subtext13{
+        font-size: 17px;
+        font-weight: 400;
+        margin-left: 14px;
+      }
+      .user-P-round-image3 {
+        padding: 8px;
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        object-fit: cover;
+    
+      }
+      .userP-img3{
+        margin-top: 23px;
+        display: flex;
+        margin-left: 15px;
+      }
+      .profile-line3{
+        width: 349px;
+        margin-left: 3px;
+      }
+      .userLogo3{
+        margin-top: -7px;
+        margin-left: -71px;
+        height: 29px;
+        width: 197px;
+        color: #706d6d;
+      }
+      .post-text3{
+        margin-left: -81px;
+        font-size: 23px;
+        font-weight: 600;
+      }
+      .Upic3{
+        width: 112px;
+        height: 170px;
+      }
+      .UpicStyle3{
+        gap: 7px;
+        display: flex;
+        margin-left: 7px;
+        margin-top: 34px;
+      }
+     
+
+
+
+
+
+     }

@@ -1,0 +1,233 @@
+
+
+/* Body part */
+.Bbody {
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center; /* Center the story-boxes horizontally */
+  margin: 0;
+}
+
+.story-box {
+  margin-left: 8px;
+  width: 1334px;
+  height: 1078px;
+  margin-bottom: 20px; /* Add some space between each story-box */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 10px rgba(15, 14, 14, 0.1);
+}
+
+.story-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.p-image {
+  width: 72px;
+  height: 68px;
+  border-radius: 50%;
+  margin-right: 19px;
+  border: 3px solid #fb8ded;
+}
+
+.p-image:hover {
+  transform: scale(1.1);
+}
+
+.p-name {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.story-body {
+  padding: 10px;
+}
+
+.story-image {
+  height: 749px;
+  width: 1314px;
+  border-radius: 10px;
+}
+
+.story-footer {
+  padding: 0px;
+  border-top: 1px solid #ddd;
+
+}
+
+.footer-content {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.heart-icon {
+  font-size: 39px; 
+  color: #201f1f;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: color 0.3s;
+  margin-left: 30px;
+
+}
+
+.heart-icon.liked {
+  color: rgb(235, 11, 48);
+}
+.story-icons{
+  margin-top: -22px;
+  width: 23px;
+  height: 21px;
+}
+.story-icons1{
+  margin-top: -22px;
+  width: 23px;
+  height: 21px;
+  
+}
+.likes{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.like-text1{
+  font-size: 18px;
+  margin-left: 16px;
+  padding: 9px;
+}
+.like-text{
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 5px;
+}  
+
+/* instanave.component.css and instahome.component.css */
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
+
+/* Media query on mobile view */
+@media (max-width: 768px) {
+  
+
+  
+  /* Body part */
+  .Bbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0;
+  }
+  
+  .story-box {
+    margin-left: -1px;
+    height: 586px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .p-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .p-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .story-body {
+    padding: 10px;
+  }
+  
+  .story-image {
+    margin-left: -5px;
+    height: 217px;
+    width: 337px;
+    border-radius: 10px;
+  }
+  
+  .story-footer {
+    padding: 0px;
+    border-top: 1px solid #ddd;
+  
+  }
+  
+  .footer-content {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+  .heart-icon {
+    font-size: 39px; 
+    color: #201f1f;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s;
+    margin-left: 30px;
+  
+  }
+  
+  .heart-icon.liked {
+    color: rgb(235, 11, 48);
+  }
+  .story-icons{
+    margin-top: -22px;
+    width: 23px;
+    height: 21px;
+  }
+  .story-icons1{
+    margin-top: -22px;
+    width: 23px;
+    height: 21px;
+    
+  }
+  .likes{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  .like-text1{
+    font-size: 18px;
+    margin-left: 16px;
+    padding: 9px;
+  }
+  .like-text{
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 5px;
+  }  
+
+  
+
+
+} 

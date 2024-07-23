@@ -1,0 +1,317 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: -90px;
+  
+  }
+  
+  .signin-centered-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 416px;
+    width: 375px;
+    margin-left: 15px;
+  }
+  
+  .insta-share {
+    margin-left: 91px;
+    width: 135px;
+    height: 86px;
+}
+  
+  
+  .form-text-gap {
+    margin-top: 0px;
+  }
+  
+  .fname-gap {
+    margin: 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .input-name {
+    margin-top: -2px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(246, 245, 245);
+    border: 0px solid #ffffff;
+    border-radius: 0%;
+  }
+  
+  .signin-button {
+    margin-top: 3px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #60a9f7;
+  
+  }
+  .register:hover{
+    color: #1f85f3;
+  
+  }
+  
+  .sign-acc {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  
+  .sign-acc-gap {
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+  .Show-Msg1{
+    color: rgb(255, 255, 255);
+    background-color: #1abd71;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 7px;
+    width: 378px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    position: fixed;
+    top: 29px;
+    left: 812px;
+    font-weight: 600;
+
+}
+
+.input-name-img {
+  font-size: 11px;
+  width: 83px;
+  height: 81px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  line-height: 69px;
+  color: transparent;
+}
+
+.input-name-img ::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.input-name-img ::before {
+  content: 'Upload Image';
+  color: #000;
+  display: inline-block;
+  background: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.input-name-img :hover::before {
+  background: #ffffff;
+}
+
+.fname-gap-img{
+  margin-left: 107px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+
+/* Media query to hide the image on mobile view */
+@media (max-width: 768px) {
+  .signin-container > div:first-child {
+    display: none;
+  }
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Ensure elements stack vertically */
+  }
+  
+  .signin-container img {
+    width: 39%;
+    max-width: 375px; /* Ensure the image doesn't exceed the form width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .signin-centered-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    margin-left: 89px;
+  }
+  
+  .insta-share {
+    margin-left: auto; /* Center the logo */
+    margin-right: auto; /* Center the logo */
+    width: 135px;
+    height: 86px;
+  }
+
+
+
+
+
+  .input-name-img {
+    font-size: 11px;
+    width: 83px;
+    height: 81px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    line-height: 69px;
+    color: transparent;
+  }
+  
+  .input-name-img ::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  
+  .input-name-img ::before {
+    content: 'Upload Image';
+    color: #000;
+    display: inline-block;
+    background: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+  }
+  
+  .input-name-img :hover::before {
+    background: #ffffff;
+  }
+  
+  .fname-gap-img{
+    margin-left: 90px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  
+  /* Rest of your CSS remains the same */
+  .form-text-gap {
+    margin-top: 0px;
+  }
+  
+  .fname-gap {
+    margin: 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .input-name {
+    margin-top: -2px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(246, 245, 245);
+    border: 0px solid #ffffff;
+    border-radius: 0%;
+  }
+  
+  .forgot {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 90px;
+    color: rgb(176, 176, 174);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .forgot:hover {
+    color: rgb(160, 158, 158);
+  }
+  
+  .signin-button {
+    margin-top: -6px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #60a9f7;
+  }
+  .register:hover {
+    color: #1f85f3;
+  }
+  
+  .sign-acc {
+       margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .sign-acc-gap {
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+  .Show-Msg1{
+    color: rgb(255, 255, 255);
+    background-color: #1abd71;
+    font-size: 15px;
+    padding: 28px;
+    border-radius: 7px;
+    width: 348px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    position: fixed;
+    top: 39px;
+    left: 6px;
+    font-weight: 600;
+
+
+}
+  
+}

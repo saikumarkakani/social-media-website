@@ -1,0 +1,437 @@
+.user-profile{
+    margin-top: -163px;
+    margin-left: 177px;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #268af4;
+    }
+    .Uprofile-text{
+      font-size: 36px;
+      font-weight: 600;
+      margin-left: 82px;
+    }
+  
+    .Uprofile-text-S{
+      padding: 11px;
+      font-size: 23px;
+      font-weight: 500;
+      margin-left: 10px;
+    }
+    .P-text-Gap{
+      margin-left: 40px;
+    }
+    .Uprofile-subtext{
+      padding: 5px;
+      font-size: 30px;
+      font-weight: 500;
+      margin-left: 76px;
+  }
+  
+  
+    .Uprofile-subtext1{
+      font-size: 23px;
+      font-weight: 400;
+      margin-left: 25px;
+    }
+    .user-P-round-image {
+      margin: 11px;
+      padding: 1px;
+      width: 96px;
+      height: 91px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #26f4a2;
+  
+    }
+  
+    .user-P-round-image:hover {
+      transform: scale(1.1);
+    }
+    .userP-img{
+      margin-top: 35px;
+      display: flex;
+      margin-left: 316px;
+      
+    }
+    .profile-line{
+      width: 1266px;
+      margin-left: 121px;
+    }
+    .userLogo{
+      margin-top: -15px;
+      margin-left: 131px;
+      height: 38px;
+      width: 197px;
+      color: #706d6d;
+    }
+    .post-text{
+      margin-left: -81px;
+      font-size: 29px;
+      font-weight: 600;
+    }
+    .UpicStyle {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-left: 160px;
+      margin-top: 34px;
+  }
+  
+  .Upic {
+    width: calc(30.33% - 31px);/* Adjust width for three images in a row with gap */
+      height: 502px; 
+      margin-bottom: 25px; /* Add bottom margin for gap between rows */
+  }
+  
+  .Upic img {
+      width: 400px;
+      height: 528px;
+  }
+  
+    .noposts{
+      margin-left: 468px;
+      width: 382px;
+      height: 265px;
+      margin-bottom: 137px;
+    }
+    .Upro-gap-top{
+      margin-top: 170px;
+  
+    }
+  
+    .loading{
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 450px;
+      margin-top: 100px;
+    }
+  .laptop{
+    display: block;
+  }
+  
+  .mobile{
+    display: none;
+  }
+  
+  
+  .user-profile-container {
+    margin-top: -170px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .user-profile-label {
+    position: relative;
+  }
+  
+  .user-profile:hover {
+    transform: scale(1.1);
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 61%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(73, 140, 254);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    padding: 4px 6px;
+    cursor: pointer;
+    padding-top: 0px;
+  }
+  
+  .add-button1 {
+  
+    position: absolute;
+    top: -41%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(228 229 232 / 0%);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .p-log{
+    width: 20px;
+    height: 40px;
+  }
+  
+  .submenu {
+    width: 155px;
+    position: absolute;
+    top: -20%;
+    left: 75%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 19px;
+  }
+  
+  .submenu button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .submenu button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .submenu1 {
+    width: 36px;
+    position: absolute;
+    top: -20%;
+    left: 69%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: -4px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 6px;
+  }
+  
+  
+  .submenu1 button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .submenu1 button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .addprotext{
+    margin-left: 40px;
+  }
+  
+  .log-pro{
+    width: 30px;
+    height: 60px;
+  }
+  
+  
+  
+  
+  
+     /* Media query on mobile view */
+     @media (max-width: 768px) {
+      .laptop{
+        display: none;
+      }
+      .mobile{
+        display: block;
+      }
+      .upposts{
+        margin-right: 15px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+  
+      .loading{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 90px;
+        margin-top: 100px;
+      }
+  
+      .Upic img {
+        width: 100%;
+        height: 180px;
+    }
+    
+      .Upro-gap-top{
+        margin-top: 181px;
+  
+      }
+      .user-profile{
+        margin-top: -182px;
+        margin-left: 9px;
+        width: 104px;
+        height: 105px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #268af4;
+      }
+      .Uprofile-text{
+        margin-top: -193px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 26px;
+      }
+    
+      .Uprofile-text-S{
+        margin-top: 17px;
+        padding: 4px;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 16px;
+      }
+      .P-text-Gap{
+        margin-left: 135px;
+      }
+      .Uprofile-subtext{
+        margin-top: 46px;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    
+    
+      .Uprofile-subtext1{
+        font-size: 17px;
+        font-weight: 400;
+        margin-left: 14px;
+      }
+      .user-P-round-image {
+        margin: 11px;
+        padding: 1px;
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #26f4a2;
+    
+      }
+  
+      .user-P-round-image:hover {
+        transform: scale(1.1);
+      }
+      .userP-img{
+        margin-top: 23px;
+        display: flex;
+        margin-left: 15px;
+            height: 180px;
+      }
+      .profile-line{
+        margin-top: -65px;
+        width: 349px;
+        margin-left: 3px;
+      }
+      .userLogo{
+        margin-top: -7px;
+        margin-left: -71px;
+        height: 29px;
+        width: 197px;
+        color: #706d6d;
+      }
+      .post-text{
+        margin-left: -81px;
+        font-size: 23px;
+        font-weight: 600;
+      }
+      .Upic{
+        width: 112px;
+        height: 167px;
+      }
+      .UpicStyle{
+        gap: 7px;
+        display: flex;
+        margin-left: 7px;
+        margin-top: 34px;
+      }
+      .noposts{
+      margin-left: 99px;
+      width: 162px;
+      height: 142px;
+      }
+  
+      .add-button {
+        display: block;
+        position: absolute;
+        top: -175%;
+        left: 97%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(73, 140, 254);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 30px;
+        width: 28px;
+    }
+      
+      
+      .p-log{
+        padding-bottom: 10px;
+        width: 15px;
+        height: 40px;
+      }
+      
+  
+  
+      .user-profile-label:hover .add-button {
+        display: none;
+      }
+      
+      .submenu {
+        width: 155px;
+        position: absolute;
+        top: -114%;
+        left: 75%;
+        transform: translateX(-50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        padding-left: 19px;
+      }
+      
+      .submenu button {
+        background-color: transparent;
+        border: none;
+        color: black;
+        padding: 5px;
+        text-align: left;
+        cursor: pointer;
+      }
+      
+      .submenu button:hover {
+        background-color: #f0f0f0;
+      }
+      
+  
+      .submenu1 {
+      font-size: 12px;
+      width: 36px;
+      position: absolute;
+      top: -384%;
+      left: 54%;
+      transform: translateX(-50%);
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: -4px;
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      padding-left: 6px;
+    }
+    }
+  
+    

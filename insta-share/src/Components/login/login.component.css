@@ -1,0 +1,217 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.login-centered-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 376px;
+  width: 375px;
+  margin-left: 15px;
+}
+
+.insta-share {
+  margin-left: 91px;
+  width: 135px;
+  height: 86px;
+}
+
+.error-message{
+  margin-left: -4px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-align: center;
+  background-color: rgb(248, 9, 9);
+}
+.form-text-gap {
+  margin-top: 0px;
+}
+
+.fname-gap {
+  margin: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.input-name {
+  margin-top: -2px;
+  height: 33px;
+  font-size: 12px;
+  background-color: rgb(246, 245, 245);
+  border: 0px solid #ffffff;
+  border-radius: 0%;
+}
+
+.forgot{
+  margin: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 90px;
+  color: rgb(135, 135, 132);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.forgot:hover{
+  color: black;
+}
+
+
+.Login-button {
+  margin-top: -6px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b89fd;
+  color: white;
+  cursor: pointer;
+}
+
+.Login-button:hover {
+  background-color: #0056b3;
+}
+
+.register {
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #60a9f7;
+
+}
+.register:hover{
+  color: #1f85f3;
+
+}
+
+.acc {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.log-acc-gap {
+  margin-top: 23px;
+  margin-left: 10px;
+}
+
+/* login.component.css */
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+/* Media query to hide the image on mobile view */
+@media (max-width: 768px) {
+  .login-container > div:first-child {
+    display: none;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Ensure elements stack vertically */
+  }
+  
+  .login-container img {
+    width: 39%;
+    max-width: 375px; /* Ensure the image doesn't exceed the form width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .login-centered-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 335px;
+    margin-left: 1px;
+  }
+  
+  .insta-share {
+    margin-left: auto; /* Center the logo */
+    margin-right: auto; /* Center the logo */
+    width: 135px;
+    height: 86px;
+  }
+  
+  /* Rest of your CSS remains the same */
+  .form-text-gap {
+    margin-top: 0px;
+  }
+  
+  .fname-gap {
+    margin: 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .input-name {
+    margin-top: -2px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(246, 245, 245);
+    border: 0px solid #ffffff;
+    border-radius: 0%;
+  }
+  
+  .forgot {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 90px;
+    color: rgb(176, 176, 174);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .forgot:hover {
+    color: rgb(160, 158, 158);
+  }
+  
+  .Login-button {
+    margin-top: -6px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #60a9f7;
+  }
+  .register:hover {
+    color: #1f85f3;
+  }
+  
+  .acc {
+       margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .log-acc-gap {
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+  
+}

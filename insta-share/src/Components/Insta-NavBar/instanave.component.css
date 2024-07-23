@@ -1,0 +1,186 @@
+/* nave bar sticky */
+.fixed-container {
+    width: 100%;
+    background-color: white; /* Ensure background color matches your design */
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .Nav-insta-pic {
+    margin-left: -14px;
+    width: 399px;
+    height: 88px;
+}
+  
+  
+  .Search-for {
+    margin-top: 0px;
+    width: 228px;
+    height: 20px;
+    padding: 17px;
+    background-color: #ffffff;
+    border: 1px solid #353333;
+    margin-left: 229px;
+  }
+  
+  .search-style {
+    margin-top: -5px;
+    height: 29px;
+    width: 36px;
+    margin-left: -39px;
+    background-color: #b9b7b7;
+  }
+  
+  .homegap {
+    margin-top: 0px;
+    margin-left: 33px;
+    color: rgb(66, 66, 246);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .homegap:hover{
+    color: #000000;
+  }
+  
+  .homegap1 {
+    margin-top: 0px;
+    margin-left: 2px;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .hgap {
+    margin-top: 1px;
+    margin-left: 20px;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .hgap:hover{
+    color: #4b59ef;
+  }
+  
+  .hbutton {
+    font-size: 16px;
+    margin-left: -9px;
+    margin-top: 5px;
+    border: 1px solid #4b59ef;
+    background-color: #4b59ef;
+    color: whitesmoke;
+    height: 38px;
+    width: 88px;
+    border-radius: 6px;
+  }
+  .nav-bot{
+    margin-bottom: 30px;
+  }
+  /* instanave.component.css and instahome.component.css */
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.search-error{
+  margin-top: 65px;
+  margin-left: 500px;
+  margin-bottom: 110px;;
+}
+.notfound-img{
+  margin-bottom: 331px;
+}
+
+
+
+
+
+  /* Media query on mobile view */
+  @media (max-width: 768px) {
+
+    .notfound-img{
+      margin-bottom: 131px;
+      margin-top: 75px;
+      width: 310px;
+      margin-left: -478px;
+    }
+    
+
+/* nave bar sticky */
+.fixed-container {
+  width: 100%;
+  background-color: white; /* Ensure background color matches your design */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.Nav-insta-pic {
+  margin-left: 10px;
+  width: 194px;
+  height: 68px;
+}
+.Search-for {
+  margin-top: 0px;
+  width: 217px;
+  height: 20px;
+  padding: 17px;
+  background-color: #ffffff;
+  border: 1px solid #353333;
+  margin-left: 50px;
+}
+
+.search-style {
+  margin-top: -5px;
+  height: 29px;
+  width: 36px;
+  margin-left: -39px;
+  background-color: #b9b7b7;
+}
+
+.homegap {
+  margin-top: 0px;
+  margin-left: 116px;
+  color: rgb(66, 66, 246);
+  font-size: 17px;
+  font-weight: 600;;
+}
+.homegap1 {
+  margin-top: 0px;
+  margin-left: 106px;
+  color: rgb(15, 15, 15);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hgap {
+  margin-top: 1px;
+  /* margin: 10px; */
+  font-weight: 600;
+  margin-left: 116px;
+}
+
+.hbutton {
+  margin-top: -36px;
+  border: 1px solid #4b59ef;
+  background-color: #4b59ef;
+  color: whitesmoke;
+  height: 31px;
+  width: 88px;
+  border-radius: 6px;
+  margin-left: -19px;
+}
+.nav-bot{
+  margin-bottom: 10px;
+}
+
+  }

@@ -1,0 +1,82 @@
+.reset-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  
+  .reset-centered-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 376px;
+    width: 375px;
+    margin-left: 15px;
+  }
+  
+  .insta-share {
+    margin-left: 91px;
+    width: 135px;
+    height: 86px;
+  }
+  
+  
+  .form-text-gap {
+    margin-top: 0px;
+  }
+  
+  .fname-gap {
+    margin: 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .input-name {
+    margin-top: -2px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(246, 245, 245);
+    border: 0px solid #ffffff;
+    border-radius: 0%;
+  }
+  
+  
+  .reset-button {
+    margin-top: -6px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .reset-error{
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgb(6, 124, 99);
+}
+
+.back{
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 130px;
+  color: rgb(150, 150, 148);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.back:hover{
+  color: rgb(44, 43, 43);
+
+}
+

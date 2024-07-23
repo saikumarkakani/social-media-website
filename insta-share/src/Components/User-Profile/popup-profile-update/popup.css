@@ -1,0 +1,245 @@
+/* popup.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+    width: 300px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .updateform-text-gap {
+    margin-bottom: 20px;
+  }
+  
+  .updatepro-text {
+    margin-bottom: 10px;
+  }
+  
+  .updateinput-profile {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .updatepro-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .addform-text-gap {
+    margin-top: 0px;
+}
+
+.addfname-profile {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.updateinput-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 140px; /* Adjust this value based on the input's height to vertically center the text */
+    color: transparent; /* Hide the default text */
+}
+
+.updateinput-profile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.updateinput-profile::before {
+    content: 'Upload Image';
+    color: #000;
+    display: inline-block;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.updatepro-btn{
+  
+    height: 33px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+    margin-left: 78px;
+    margin-top: 10px;
+    padding-left: 22px;
+    padding-top: 5px;
+}
+.updatepro-text{
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 63px;
+    margin-bottom: 10px;
+}
+
+
+
+
+   /* Media query on mobile view */
+   @media (max-width: 768px) {
+
+
+
+
+/* popup.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+  width: 300px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.updateform-text-gap {
+  margin-bottom: 20px;
+}
+
+.updatepro-text {
+  margin-bottom: 10px;
+}
+
+.updateinput-profile {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.updatepro-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.addform-text-gap {
+  margin-top: 0px;
+}
+
+.addfname-profile {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.updateinput-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 140px; /* Adjust this value based on the input's height to vertically center the text */
+  color: transparent; /* Hide the default text */
+}
+
+.updateinput-profile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.updateinput-profile::before {
+  content: 'Upload Image';
+  color: #000;
+  display: inline-block;
+  border: 0px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.updatepro-btn{
+
+  height: 33px;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b89fd;
+  color: white;
+  cursor: pointer;
+  margin-left: 78px;
+  margin-top: 10px;
+  padding-left: 22px;
+  padding-top: 5px;
+}
+.updatepro-text{
+  font-weight: 600;
+  font-size: 19px;
+  margin-left: 63px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+   }

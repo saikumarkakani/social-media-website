@@ -1,0 +1,279 @@
+.addprofile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.addprofile-centered-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 502px;
+    width: 387px;
+    margin-left: 15px;
+}
+
+.addinsta-share {
+    margin-left: 91px;
+    width: 135px;
+    height: 86px;
+}
+
+.addform-text-gap {
+    margin-top: 0px;
+}
+
+.addfname-profile {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.addinput-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 140px; /* Adjust this value based on the input's height to vertically center the text */
+    color: transparent; /* Hide the default text */
+}
+
+.addinput-profile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.addinput-profile::before {
+    content: 'Upload Image';
+    color: #000;
+    display: inline-block;
+    background: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.addinput-profile:hover::before {
+    background: #ffffff;
+}
+
+.addprofile-button {
+    margin-top: -6px;
+    height: 35px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b89fd;
+    color: white;
+    cursor: pointer;
+    margin-left: 31px;
+}
+.back-button {
+    margin-top: -6px;
+    height: 35px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: #585959;
+    color: white;
+    margin-left: 10px;
+}
+
+.addprofile-button:hover {
+    background-color: #0056b3;
+}
+.back-button:hover {
+    background-color: #7d7e7e;
+}
+.addstory{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 17px;
+}
+.addinput-story{
+    padding-left: 25px;
+    margin: 10px;
+    width: 302px;
+    height: 63px;
+    margin-left: 4px;
+    border-radius: 16px;
+    border: 1px solid #a9a4a4;
+
+}
+
+
+.Show-Msg{
+    color: rgb(255, 255, 255);
+    background-color: #1abd71;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 7px;
+    width: 386px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    position: fixed;
+    top: 58px;
+    left: 582px;
+    font-weight: 600;
+
+}
+
+
+
+
+  /* Media query on mobile view */
+  @media (max-width: 768px) {
+
+
+    .addprofile-button {
+        margin-top: -6px;
+        height: 35px;
+        width: 40%;
+        border: none;
+        border-radius: 5px;
+        background-color: #1b89fd;
+        color: white;
+        cursor: pointer;
+        margin-left: 14px;
+    }
+    .back-button {
+        margin-top: -6px;
+        height: 35px;
+        width: 40%;
+        border: none;
+        border-radius: 5px;
+        background-color: #585959;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .addprofile-centered-form {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        height: 502px;
+        width: 387px;
+        margin-left: 15px;
+    }
+    
+    .addprofile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .addprofile-centered-form {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        height: 502px;
+        width: 336px;
+        margin-left: 2px;
+    }
+    
+    .addinsta-share {
+        margin-left: 70px;
+        width: 135px;
+        height: 86px;
+    }
+    
+    .addform-text-gap {
+        margin-top: 0px;
+    }
+    
+    .addfname-profile {
+        font-size: 21px;
+        font-weight: 600;
+        margin-left: 78px;
+    }
+    
+    .addinput-profile {
+        width: 115px;
+        height: 114px;
+        border-radius: 50%;
+        border: 2px solid #ddd;
+        display: block;
+        margin: 14px;
+        padding: 5px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 89px;
+        color: transparent;
+        margin-left: 76px;
+    }
+    
+    .addinput-profile::-webkit-file-upload-button {
+        visibility: hidden;
+    }
+    
+    .addinput-profile::before {
+        content: 'Upload Image';
+        color: #000;
+        display: inline-block;
+        background: #ffffff;
+        border: 0px solid #ffffff;
+        border-radius: 50%;
+        padding: 5px 10px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    
+    .addinput-profile:hover::before {
+        background: #ffffff;
+    }
+
+    
+    .addprofile-button:hover {
+        background-color: #0056b3;
+    }
+    .addstory{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 17px;
+    }
+    .addinput-story{
+        padding-left: 25px;
+        margin: 10px;
+        width: 302px;
+        height: 45px;
+        margin-left: -20px;
+        border-radius: 16px;
+        border: 1px solid #a9a4a4;
+    }
+    .Show-Msg{
+        color: rgb(255, 255, 255);
+        background-color: #1abd71;
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 7px;
+        width: 339px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 8px;
+        position: fixed;
+        top: 58px;
+        left: 6px;
+        font-weight: 600;
+    
+    }
+
+    
+    
+  }
